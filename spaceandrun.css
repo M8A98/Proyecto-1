@@ -1,0 +1,216 @@
+body {
+	height: 1000px;
+	overflow: hidden;
+	background-image: url("img/fondoverde.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.background{
+	background-image: url("img/fondo5.jpg");
+	width: 600px;
+	height: 600px;
+	margin-left: 350px;
+}
+
+.background-disabled {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 500px;
+	padding-top: 120px;
+}
+.space-to-start{
+	background-color: white;
+	width: 150px;
+	height: 150px;
+	font-family: Impact, sans-serif;
+	position: relative;
+	bottom: 50px;
+	text-align: center;
+	left: 70px;
+	border-radius: 3px;
+}
+span{
+	color: blue;
+}
+.timer2{
+	position: relative;
+	left: 635px;
+	font-size: 20px;
+	height: 10px;
+}
+
+.mensajes-60{
+	color: white;
+	position: relative;
+	top: 480px;
+	left: 200px;
+	font-size: 20px;
+	visibility: hidden;
+
+}
+.mensajes-30{
+	color: white;
+	position: relative;
+	top: 480px;
+	left: 200px;
+	font-size: 20px;
+	visibility: hidden;
+}
+.mensajes-10{
+	color: white;
+	position: relative;
+	top: 480px;
+	left: 200px;
+	font-size: 20px;
+	visibility: hidden;
+
+}
+#contenedor-canon-izq1,#contenedor-canon-izq2,#contenedor-canon-izq3,#contenedor-canon-izq4,#contenedor-canon-izq5,#contenedor-canon-izq6{
+	margin-bottom: 54px;
+}
+#contenedor-canon-der1,#contenedor-canon-der2,#contenedor-canon-der3,#contenedor-canon-der4{
+	margin-bottom: 54px;
+}
+.jugador{
+	height: 40px;
+	width: 40px;
+	display: none;
+	position: relative;
+	left: 270px;
+	top: 400px;
+	bottom: 1px;
+	right: 1px;
+}
+.torreta{
+	height: 40px;  
+	width: 40px;
+}
+.laser{
+	height: 40px;
+	width: 40px;
+	position: relative;
+	left: 530px;
+	bottom: 250px;
+	display: none;
+}
+.proyectil-laser{
+	position: relative;
+	left: 530px;
+	bottom: 270px;
+	display: none;
+}
+.canonizq{
+	position: relative;
+	bottom: 165px;
+	display: none;
+}
+.canonder{
+	position: relative;
+	bottom: 750px;
+	left: 540px;
+	display: none;
+}
+/*----------------------------------------------Proyectil derecha*/
+#proyectilder1{
+  position: absolute;
+  transition-property: right;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 850px;
+  top: 107px;
+}
+#proyectilder2{
+  position: absolute;
+  transition-property: right;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 850px;
+  top: 217px;
+}
+#proyectilder3{
+  position: absolute;
+  transition-property: right;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 850px;
+  top: 325px;
+}
+#proyectilder4{
+  position: absolute;
+  transition-property: right;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 850px;
+  top: 433px;
+}
+#proyectilder5{
+  position: absolute;
+  transition-property: right;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 850px;
+  top: 540px;
+}
+/*-------------------------------------------Proyectil Izquierda*/
+#proyectilizq1{
+  position: absolute;
+  transition-property: left;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 410px;
+  top: 43px;
+}
+#proyectilizq2{
+  position: absolute;
+  transition-property: left;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 410px;
+  top: 151px;
+}
+#proyectilizq3{
+  position: absolute;
+  transition-property: left;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 410px;
+  top: 258px;
+}
+#proyectilizq4{
+  position: absolute;
+  transition-property: left;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 410px;
+  top: 366px;
+}
+#proyectilizq5{
+  position: absolute;
+  transition-property: left;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 410px;
+  top: 475px;
+}
+#proyectilizq6{
+  position: absolute;
+  transition-property: left;
+  transition-duration: 3s;
+  transition-timing-function:linear;
+  left: 410px;
+  top: 582px;
+}
+/*------------------------------------------------------------------------*/
+.piedras{
+	position: relative;
+	bottom: 200px;
+	left: 200px;
+	visibility: hidden;
+}
+/*se más específico
+front end developer - javascript, 
+Full stack developer - Javascript, HTML
+En ingles.
+Sólo un perfil.*/
+
